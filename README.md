@@ -1,8 +1,8 @@
 # Particle filter
 
-#### 👨‍🎓 This project was carried out during my master's degree in computer vision at URJC - Madrid
-
 Visual tracking with particle filter method
+
+#### 👨‍🎓 This project was carried out during my master's degree in computer vision at URJC - Madrid
 
 ## Goals
 
