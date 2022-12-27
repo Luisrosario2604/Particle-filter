@@ -1,6 +1,22 @@
 # Particle filter
 
+#### 👨‍🎓 This project was carried out during my master's degree in computer vision at URJC - Madrid
+
 Visual tracking with particle filter method
+
+## Goals
+
+- Detect the ball by using the particle filter method
+
+## Requirements
+
+* Python 3.7+
+* numpy == 1.21.3
+* opencv_python == 4.5.5.64
+
+```bash
+$ pip install -r requirements.txt
+```
 
 ## Steps
 
@@ -12,36 +28,48 @@ Visual tracking with particle filter method
 6) Diffusion
 7) Prediction
 
-
-## Requirements
-
-* Python 3.7+
-* Requirements = Requirement.txt
-
-```bash
-$ pip install -r requirements.txt
-```
-###### numpy (1.21.3)
-###### opencv_python (4.5.5.64)
+###### More explanations in ```docs/explanations_esp.pdf``` (only in spanish)
 
 ## Usage
 
-######Press a key to skip image
-
 #### With static perturbation
 ```bash
-$ python main_filter.py --directory="data"
+$ python ./src/main_filter.py --directory="data"
 ```
 
 #### With proportional perturbation
 ```bash
-$ python main_filter.py --directory="data" -p
+$ python ./src/main_filter.py --directory="data" -p
 ```
+
+###### Press a key to skip image
 
 ## Example
 
-![example](./Pictures/Screen.png)
+<p align="center">
+  <img src="./imgs/Screen.png">
+</p>
+<p align="center">
+  <i>Exemple of the displayed output</i>
+</p>
+
+## Structure
+
+    .
+    ├── data
+    │    └── *.jpg
+    ├── docs
+    │    └── explanations_esp.pdf
+    ├── imgs
+    │    └── Screen.png
+    ├── README.md
+    ├── requirements.txt
+    └── src
+        ├── filter_class.py
+        ├── main_filter.py
+        └── particle_class.py
+
 
 ## Authors
 
-* **ROSARIO TREMOULET, LUIS** - *Initial work* - [Luis](https://github.com/Luisrosario2604)
+* **Luis Rosario** - *Member 1* - [Luisrosario2604](https://github.com/Luisrosario2604)
