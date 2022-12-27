@@ -50,7 +50,7 @@ $ python ./src/main_filter.py --directory="data" -p
   <img src="./imgs/Screen.png">
 </p>
 <p align="center">
-  <i>Exemple of the displayed output</i>
+  <i>Example of the displayed output</i>
 </p>
 
 ## Structure
