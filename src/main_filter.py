@@ -108,7 +108,7 @@ def draw_all_images(filter_class, original_img, mask, i):
         draw_title(initial_img, "Initialisation")
 
     if first_finded_img_bool is False:
-        if filter_class.get_chosen_particles() is not []:
+        if filter_class.get_chosen_particles() != []:
             first_finded_img = all_squares_img.copy()
             first_finded_img_bool = True
         else:
