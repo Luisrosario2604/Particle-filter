@@ -11,11 +11,11 @@ Visual tracking with particle filter method
 ## Requirements
 
 * Python 3.7+
-* numpy == 1.21.3
-* opencv_python == 4.5.5.64
+* numpy ~= 1.21.3
+* opencv_python ~= 4.5.5.64
 
 ```bash
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Steps
@@ -33,13 +33,15 @@ $ pip install -r requirements.txt
 ## Usage
 
 #### With static perturbation
+
 ```bash
-$ python ./src/main_filter.py --directory="data"
+python ./src/main_filter.py --directory="data"
 ```
 
 #### With proportional perturbation
+
 ```bash
-$ python ./src/main_filter.py --directory="data" -p
+python ./src/main_filter.py --directory="data" -p
 ```
 
 ###### Press a key to skip image
